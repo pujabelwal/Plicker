@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9382BE81C61D6C40040B73D /* gradientOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = A9382BE71C61D6C40040B73D /* gradientOverlay.png */; };
+		A9382BEE1C628A580040B73D /* PlickerResponsesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9382BED1C628A580040B73D /* PlickerResponsesViewController.swift */; };
+		A9382BF01C629BC80040B73D /* PlickerResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9382BEF1C629BC80040B73D /* PlickerResponseCell.swift */; };
+		A9382BF41C63971F0040B73D /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = A9382BF31C63971F0040B73D /* question.png */; };
+		A9B98A7F1C607FED00197DF8 /* PBChoices.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B98A781C607FED00197DF8 /* PBChoices.m */; };
+		A9B98A801C607FED00197DF8 /* PBPoll.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B98A7A1C607FED00197DF8 /* PBPoll.m */; };
+		A9B98A811C607FED00197DF8 /* PBQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B98A7C1C607FED00197DF8 /* PBQuestion.m */; };
+		A9B98A821C607FED00197DF8 /* PBResponses.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B98A7E1C607FED00197DF8 /* PBResponses.m */; };
+		A9DD1D9F1C5EDFC9002542E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1D9E1C5EDFC9002542E2 /* AppDelegate.swift */; };
+		A9DD1DA11C5EDFC9002542E2 /* PlickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1DA01C5EDFC9002542E2 /* PlickerViewController.swift */; };
+		A9DD1DA41C5EDFC9002542E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DD1DA21C5EDFC9002542E2 /* Main.storyboard */; };
+		A9DD1DA71C5EDFC9002542E2 /* Plicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1DA51C5EDFC9002542E2 /* Plicker.xcdatamodeld */; };
+		A9DD1DA91C5EDFC9002542E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DD1DA81C5EDFC9002542E2 /* Assets.xcassets */; };
+		A9DD1DAC1C5EDFC9002542E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DD1DAA1C5EDFC9002542E2 /* LaunchScreen.storyboard */; };
+		A9DD1DB71C5EDFC9002542E2 /* PlickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1DB61C5EDFC9002542E2 /* PlickerTests.swift */; };
+		A9DD1DC21C5EDFC9002542E2 /* PlickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1DC11C5EDFC9002542E2 /* PlickerUITests.swift */; };
+		A9DD1DD11C5EE033002542E2 /* PlickerAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1DD01C5EE033002542E2 /* PlickerAPIService.swift */; };
+		A9DD1DD41C602543002542E2 /* PlickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DD1DD31C602543002542E2 /* PlickerCell.swift */; };
+		DF3057F592AECE600300216E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238DC504E1BCB7BBC30869D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9DD1DB31C5EDFC9002542E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DD1D931C5EDFC9002542E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DD1D9A1C5EDFC9002542E2;
+			remoteInfo = Plicker;
+		};
+		A9DD1DBE1C5EDFC9002542E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DD1D931C5EDFC9002542E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DD1D9A1C5EDFC9002542E2;
+			remoteInfo = Plicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		210A6ABD99BE4853CF067C77 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3238DC504E1BCB7BBC30869D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9382BE71C61D6C40040B73D /* gradientOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradientOverlay.png; sourceTree = "<group>"; };
+		A9382BED1C628A580040B73D /* PlickerResponsesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlickerResponsesViewController.swift; sourceTree = "<group>"; };
+		A9382BEF1C629BC80040B73D /* PlickerResponseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlickerResponseCell.swift; sourceTree = "<group>"; };
+		A9382BF31C63971F0040B73D /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		A9B98A771C607FED00197DF8 /* PBChoices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBChoices.h; sourceTree = "<group>"; };
+		A9B98A781C607FED00197DF8 /* PBChoices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBChoices.m; sourceTree = "<group>"; };
+		A9B98A791C607FED00197DF8 /* PBPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPoll.h; sourceTree = "<group>"; };
+		A9B98A7A1C607FED00197DF8 /* PBPoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPoll.m; sourceTree = "<group>"; };
+		A9B98A7B1C607FED00197DF8 /* PBQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQuestion.h; sourceTree = "<group>"; };
+		A9B98A7C1C607FED00197DF8 /* PBQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQuestion.m; sourceTree = "<group>"; };
+		A9B98A7D1C607FED00197DF8 /* PBResponses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBResponses.h; sourceTree = "<group>"; };
+		A9B98A7E1C607FED00197DF8 /* PBResponses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBResponses.m; sourceTree = "<group>"; };
+		A9B98A871C60824700197DF8 /* Plicker-BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Plicker-BridgingHeader.h"; sourceTree = "<group>"; };
+		A9B98A891C60834900197DF8 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		A9DD1D9B1C5EDFC9002542E2 /* Plicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DD1D9E1C5EDFC9002542E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DD1DA01C5EDFC9002542E2 /* PlickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlickerViewController.swift; sourceTree = "<group>"; };
+		A9DD1DA31C5EDFC9002542E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9DD1DA61C5EDFC9002542E2 /* Plicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Plicker.xcdatamodel; sourceTree = "<group>"; };
+		A9DD1DA81C5EDFC9002542E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DD1DAB1C5EDFC9002542E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DD1DAD1C5EDFC9002542E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DD1DB21C5EDFC9002542E2 /* PlickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DD1DB61C5EDFC9002542E2 /* PlickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlickerTests.swift; sourceTree = "<group>"; };
+		A9DD1DB81C5EDFC9002542E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DD1DBD1C5EDFC9002542E2 /* PlickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DD1DC11C5EDFC9002542E2 /* PlickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlickerUITests.swift; sourceTree = "<group>"; };
+		A9DD1DC31C5EDFC9002542E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DD1DD01C5EE033002542E2 /* PlickerAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlickerAPIService.swift; sourceTree = "<group>"; };
+		A9DD1DD31C602543002542E2 /* PlickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlickerCell.swift; sourceTree = "<group>"; };
+		A9EF7AAF98B3E3AEA87C85E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DD1D981C5EDFC9002542E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3057F592AECE600300216E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DD1DAF1C5EDFC9002542E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DD1DBA1C5EDFC9002542E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B2EA4492EDCB4D34BE7E6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9EF7AAF98B3E3AEA87C85E0 /* Pods.debug.xcconfig */,
+				210A6ABD99BE4853CF067C77 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9B98A761C607FED00197DF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9B98A891C60834900197DF8 /* DataModels.h */,
+				A9B98A791C607FED00197DF8 /* PBPoll.h */,
+				A9B98A7A1C607FED00197DF8 /* PBPoll.m */,
+				A9B98A771C607FED00197DF8 /* PBChoices.h */,
+				A9B98A781C607FED00197DF8 /* PBChoices.m */,
+				A9B98A7B1C607FED00197DF8 /* PBQuestion.h */,
+				A9B98A7C1C607FED00197DF8 /* PBQuestion.m */,
+				A9B98A7D1C607FED00197DF8 /* PBResponses.h */,
+				A9B98A7E1C607FED00197DF8 /* PBResponses.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9DD1D921C5EDFC9002542E2 = {
+			isa = PBXGroup;
+			children = (
+				A9DD1D9D1C5EDFC9002542E2 /* Plicker */,
+				A9DD1DB51C5EDFC9002542E2 /* PlickerTests */,
+				A9DD1DC01C5EDFC9002542E2 /* PlickerUITests */,
+				A9DD1D9C1C5EDFC9002542E2 /* Products */,
+				32B2EA4492EDCB4D34BE7E6C /* Pods */,
+				CED60FE71084586E8D4400B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DD1D9C1C5EDFC9002542E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD1D9B1C5EDFC9002542E2 /* Plicker.app */,
+				A9DD1DB21C5EDFC9002542E2 /* PlickerTests.xctest */,
+				A9DD1DBD1C5EDFC9002542E2 /* PlickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DD1D9D1C5EDFC9002542E2 /* Plicker */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD1D9E1C5EDFC9002542E2 /* AppDelegate.swift */,
+				A9DD1DA01C5EDFC9002542E2 /* PlickerViewController.swift */,
+				A9382BED1C628A580040B73D /* PlickerResponsesViewController.swift */,
+				A9B98A871C60824700197DF8 /* Plicker-BridgingHeader.h */,
+				A9DD1DCF1C5EE013002542E2 /* network */,
+				A9DD1DD21C602506002542E2 /* views */,
+				A9B98A761C607FED00197DF8 /* Models */,
+				A9DD1DA21C5EDFC9002542E2 /* Main.storyboard */,
+				A9DD1DA81C5EDFC9002542E2 /* Assets.xcassets */,
+				A9DD1DAA1C5EDFC9002542E2 /* LaunchScreen.storyboard */,
+				A9DD1DAD1C5EDFC9002542E2 /* Info.plist */,
+				A9DD1DA51C5EDFC9002542E2 /* Plicker.xcdatamodeld */,
+				A9382BE71C61D6C40040B73D /* gradientOverlay.png */,
+				A9382BF31C63971F0040B73D /* question.png */,
+			);
+			path = Plicker;
+			sourceTree = "<group>";
+		};
+		A9DD1DB51C5EDFC9002542E2 /* PlickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD1DB61C5EDFC9002542E2 /* PlickerTests.swift */,
+				A9DD1DB81C5EDFC9002542E2 /* Info.plist */,
+			);
+			path = PlickerTests;
+			sourceTree = "<group>";
+		};
+		A9DD1DC01C5EDFC9002542E2 /* PlickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD1DC11C5EDFC9002542E2 /* PlickerUITests.swift */,
+				A9DD1DC31C5EDFC9002542E2 /* Info.plist */,
+			);
+			path = PlickerUITests;
+			sourceTree = "<group>";
+		};
+		A9DD1DCF1C5EE013002542E2 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD1DD01C5EE033002542E2 /* PlickerAPIService.swift */,
+			);
+			name = network;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A9DD1DD21C602506002542E2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A9DD1DD31C602543002542E2 /* PlickerCell.swift */,
+				A9382BEF1C629BC80040B73D /* PlickerResponseCell.swift */,
+			);
+			name = views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CED60FE71084586E8D4400B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3238DC504E1BCB7BBC30869D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DD1D9A1C5EDFC9002542E2 /* Plicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DD1DC61C5EDFC9002542E2 /* Build configuration list for PBXNativeTarget "Plicker" */;
+			buildPhases = (
+				20D1B6931D7E0EE001A0EE4F /* Check Pods Manifest.lock */,
+				A9DD1D971C5EDFC9002542E2 /* Sources */,
+				A9DD1D981C5EDFC9002542E2 /* Frameworks */,
+				A9DD1D991C5EDFC9002542E2 /* Resources */,
+				32008522B1FDB6A0C50F3A5E /* Embed Pods Frameworks */,
+				F71B1EBC54B753D7A0945900 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plicker;
+			productName = Plicker;
+			productReference = A9DD1D9B1C5EDFC9002542E2 /* Plicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9DD1DB11C5EDFC9002542E2 /* PlickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DD1DC91C5EDFC9002542E2 /* Build configuration list for PBXNativeTarget "PlickerTests" */;
+			buildPhases = (
+				A9DD1DAE1C5EDFC9002542E2 /* Sources */,
+				A9DD1DAF1C5EDFC9002542E2 /* Frameworks */,
+				A9DD1DB01C5EDFC9002542E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DD1DB41C5EDFC9002542E2 /* PBXTargetDependency */,
+			);
+			name = PlickerTests;
+			productName = PlickerTests;
+			productReference = A9DD1DB21C5EDFC9002542E2 /* PlickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9DD1DBC1C5EDFC9002542E2 /* PlickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DD1DCC1C5EDFC9002542E2 /* Build configuration list for PBXNativeTarget "PlickerUITests" */;
+			buildPhases = (
+				A9DD1DB91C5EDFC9002542E2 /* Sources */,
+				A9DD1DBA1C5EDFC9002542E2 /* Frameworks */,
+				A9DD1DBB1C5EDFC9002542E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DD1DBF1C5EDFC9002542E2 /* PBXTargetDependency */,
+			);
+			name = PlickerUITests;
+			productName = PlickerUITests;
+			productReference = A9DD1DBD1C5EDFC9002542E2 /* PlickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DD1D931C5EDFC9002542E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Puja;
+				TargetAttributes = {
+					A9DD1D9A1C5EDFC9002542E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A9DD1DB11C5EDFC9002542E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A9DD1D9A1C5EDFC9002542E2;
+					};
+					A9DD1DBC1C5EDFC9002542E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A9DD1D9A1C5EDFC9002542E2;
+					};
+				};
+			};
+			buildConfigurationList = A9DD1D961C5EDFC9002542E2 /* Build configuration list for PBXProject "Plicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DD1D921C5EDFC9002542E2;
+			productRefGroup = A9DD1D9C1C5EDFC9002542E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DD1D9A1C5EDFC9002542E2 /* Plicker */,
+				A9DD1DB11C5EDFC9002542E2 /* PlickerTests */,
+				A9DD1DBC1C5EDFC9002542E2 /* PlickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DD1D991C5EDFC9002542E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9382BF41C63971F0040B73D /* question.png in Resources */,
+				A9DD1DAC1C5EDFC9002542E2 /* LaunchScreen.storyboard in Resources */,
+				A9DD1DA91C5EDFC9002542E2 /* Assets.xcassets in Resources */,
+				A9382BE81C61D6C40040B73D /* gradientOverlay.png in Resources */,
+				A9DD1DA41C5EDFC9002542E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DD1DB01C5EDFC9002542E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DD1DBB1C5EDFC9002542E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D1B6931D7E0EE001A0EE4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32008522B1FDB6A0C50F3A5E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71B1EBC54B753D7A0945900 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DD1D971C5EDFC9002542E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9382BF01C629BC80040B73D /* PlickerResponseCell.swift in Sources */,
+				A9382BEE1C628A580040B73D /* PlickerResponsesViewController.swift in Sources */,
+				A9DD1DA71C5EDFC9002542E2 /* Plicker.xcdatamodeld in Sources */,
+				A9B98A821C607FED00197DF8 /* PBResponses.m in Sources */,
+				A9B98A811C607FED00197DF8 /* PBQuestion.m in Sources */,
+				A9DD1DA11C5EDFC9002542E2 /* PlickerViewController.swift in Sources */,
+				A9B98A801C607FED00197DF8 /* PBPoll.m in Sources */,
+				A9B98A7F1C607FED00197DF8 /* PBChoices.m in Sources */,
+				A9DD1D9F1C5EDFC9002542E2 /* AppDelegate.swift in Sources */,
+				A9DD1DD11C5EE033002542E2 /* PlickerAPIService.swift in Sources */,
+				A9DD1DD41C602543002542E2 /* PlickerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DD1DAE1C5EDFC9002542E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DD1DB71C5EDFC9002542E2 /* PlickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DD1DB91C5EDFC9002542E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DD1DC21C5EDFC9002542E2 /* PlickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9DD1DB41C5EDFC9002542E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DD1D9A1C5EDFC9002542E2 /* Plicker */;
+			targetProxy = A9DD1DB31C5EDFC9002542E2 /* PBXContainerItemProxy */;
+		};
+		A9DD1DBF1C5EDFC9002542E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DD1D9A1C5EDFC9002542E2 /* Plicker */;
+			targetProxy = A9DD1DBE1C5EDFC9002542E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9DD1DA21C5EDFC9002542E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DD1DA31C5EDFC9002542E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9DD1DAA1C5EDFC9002542E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DD1DAB1C5EDFC9002542E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DD1DC41C5EDFC9002542E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DD1DC51C5EDFC9002542E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DD1DC71C5EDFC9002542E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EF7AAF98B3E3AEA87C85E0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Plicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pujabelwal.com.Plicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/athos/Desktop/Plicker/Plicker/Plicker-BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		A9DD1DC81C5EDFC9002542E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210A6ABD99BE4853CF067C77 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Plicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pujabelwal.com.Plicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/athos/Desktop/Plicker/Plicker/Plicker-BridgingHeader.h";
+			};
+			name = Release;
+		};
+		A9DD1DCA1C5EDFC9002542E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pujabelwal.com.PlickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plicker.app/Plicker";
+			};
+			name = Debug;
+		};
+		A9DD1DCB1C5EDFC9002542E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pujabelwal.com.PlickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plicker.app/Plicker";
+			};
+			name = Release;
+		};
+		A9DD1DCD1C5EDFC9002542E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pujabelwal.com.PlickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Plicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A9DD1DCE1C5EDFC9002542E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pujabelwal.com.PlickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Plicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DD1D961C5EDFC9002542E2 /* Build configuration list for PBXProject "Plicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DD1DC41C5EDFC9002542E2 /* Debug */,
+				A9DD1DC51C5EDFC9002542E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DD1DC61C5EDFC9002542E2 /* Build configuration list for PBXNativeTarget "Plicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DD1DC71C5EDFC9002542E2 /* Debug */,
+				A9DD1DC81C5EDFC9002542E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DD1DC91C5EDFC9002542E2 /* Build configuration list for PBXNativeTarget "PlickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DD1DCA1C5EDFC9002542E2 /* Debug */,
+				A9DD1DCB1C5EDFC9002542E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DD1DCC1C5EDFC9002542E2 /* Build configuration list for PBXNativeTarget "PlickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DD1DCD1C5EDFC9002542E2 /* Debug */,
+				A9DD1DCE1C5EDFC9002542E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9DD1DA51C5EDFC9002542E2 /* Plicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9DD1DA61C5EDFC9002542E2 /* Plicker.xcdatamodel */,
+			);
+			currentVersion = A9DD1DA61C5EDFC9002542E2 /* Plicker.xcdatamodel */;
+			path = Plicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9DD1D931C5EDFC9002542E2 /* Project object */;
+}
